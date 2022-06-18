@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+<title>Ethel PreSchool</title>
+
+<!-- Stylesheets -->
+<link href="{% static '/css/style.css' %}" rel="stylesheet">
+<link href="{% static '/css/responsive.css' %}" rel="stylesheet">
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+</head>
+
+<!-- page wrapper -->
+<body class="boxed_wrapper">
+
+
+    <!-- .preloader -->
+    <div class="preloader"></div>
+    <!-- /.preloader -->
+
+
+    <!-- search-box-layout -->
+    <div class="wraper_flyout_search">
+        <div class="table">
+            <div class="table-cell">
+                <div class="flyout-search-layer"></div>
+                <div class="flyout-search-layer"></div>
+                <div class="flyout-search-layer"></div>
+                <div class="flyout-search-close">
+                    <span class="flyout-search-close-line"></span>
+                    <span class="flyout-search-close-line"></span>
+                </div>
+                <div class="flyout_search">
+                    <div class="flyout-search-title">
+                        <h4>Search</h4>
+                    </div>
+                    <div class="flyout-search-bar">
+                        <form role="search" method="get" action="#">
+                            <div class="form-row">
+                                <input type="search" placeholder="Type to search..." value="" name="s" required="">
+                                <button type="submit"><i class="fa fa-search"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- search-box-layout end -->
+
+
+    {% include 'navbar.html'%}
+
+    {% block content %}
+
+    {% endblock %}
+
+
+
+
+
+    {% include 'footer.html'%}
+
+
+
+
+
+
+
+
+
+<!-- jequery plugins -->
+<script src="{% static '/js/jquery.js' %}"></script>
+<script src="{% static '/js/popper.min.js' %}"></script>
+<script src="{% static '/js/bootstrap.min.js' %}"></script>
+
+<script src="{% static '/js/owl.js' %}"></script>
+<script src="{% static '/js/wow.js' %}"></script>
+<script src="{% static '/js/validation.js' %}"></script>
+<script src="{% static '/js/jquery.fancybox.js' %}"></script>
+<script src="{% static '/js/appear.js' %}"></script>
+<script src="{% static '/js/parallax.min.js' %}"></script>
+
+<!-- map script -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-CE0deH3Jhj6GN4YvdCFZS7DpbXexzGU"></script>
+<script src="{% static '/js/gmaps.js' %}"></script>
+<script src="{% static '/js/map-helper.js' %}"></script>
+
+<!-- main-js -->
+<script src="{% static '/js/script.js' %}"></script>
+
+</body><!-- End of .page_wrapper -->
+
+<!-- Mirrored from azim.commonsupport.com/Kidko/index-3.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 28 Apr 2022 13:20:44 GMT -->
+</html>
