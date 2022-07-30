@@ -1667,7 +1667,7 @@ h3 a:hover{
 }
 
 .classes-section .inner-block .image-box img{
-  width: 100%;
+  /* width: 100%; */
   transition: all 500ms ease;
 }
 
@@ -3441,7 +3441,7 @@ h3 a:hover{
   content: '';
   background: #9be9ff;
   height: 290px;
-  width: 290px;
+  width: 350px;
   top: -110px;
   right: -110px;
   border-radius: 20px;
@@ -3885,7 +3885,7 @@ h3 a:hover{
 }
 
 .about-style-two .image-inner .image-box img{
-  width: 100%;
+  /* width: 100%; */
   border-radius: 20px;
 }
 
@@ -4000,13 +4000,13 @@ h3 a:hover{
 }
 
 .activities-section.style-two .image-box {
-  margin: 120px 70px 0px 110px;
+  margin: 160px 70px 0px 110px;
 }
 
 .activities-section.style-two .image-box .image:before{
   right: 205px;
   background: #d9f0f7;
-  height: 400px;
+  /* height: 400px; */
 }
 
 
