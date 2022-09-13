@@ -1,1 +1,1 @@
-web: gunicorn ethel_web.wsgi --log-file -
+web: python manage.py collectstatic --noinput; gunicorn ethel_web.wsgi --log-file -
