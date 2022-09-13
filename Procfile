@@ -1,1 +1,1 @@
-web: python manage.py collectstatic --noinput; gunicorn ethel_web.wsgi --log-file -
+web: heroku config:set DISABLE_COLLECTSTATIC=1 python manage.py collectstatic --noinput; gunicorn ethel_web.wsgi --log-file -
